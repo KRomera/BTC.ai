@@ -18,58 +18,58 @@ Predict the future by acknowledging the past. Find good investment momentums and
 
 
 ## How is it used?
+BTC.ai is multi-purpose and can be used at any time when you want to try and foreseek the the future price of the cryptocurrency. It can be either used for short-time predictions or long-run ones. On the other hand, it can be used as a potential indicator or directly as a auto-investment artificial intelligence. If used automatically the system won't collect your API's personal key. Used as a external advisor no personal data or identification is required, therefore no data of the user would be stored at all. 
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The AI will gather data through Binance and constantly readjust itself to provide the most realiable predictions at all times. Without a Binance account it is no possible to use as your AI inverstor, just as your AI advisor. 
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="https://www.analyticsinsight.net/wp-content/uploads/2021/09/Artificial-Intelligence-Stocks.png" width=100%  alt="StockAI" class="center">
 
-This is how you create code examples:
+Daily or hourly candlesticks will be the data studied, and predictions will be shown also as candlesticks in a graph. However, the advisor can also provide the user with adaptable predictions of the most suitable moments for buying and selling the underlaying active. 
+
+Tensorflow library will be used to try and develop the proper algorithm in order to achieve the desired result or a first approach to it. A code structure should be as it follows:
+
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+def machine_learning(data):
+   #Filtering the required data out of the input data (it should be a dictionary)
+   #Dividing the data into learning and testing data
+   #Tensorflow code with a 4 layer neural network with a long study to predict 
+   #NLP for relevant news related to BTC (acceptance, rejection, indexes, banks' actives)
+   
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+def main(days,advisor,investor):
+   global candlesticks
+   predCandelesticks=[]
+   advice=[]
+   
+   for i in range(len(days)):
+      predCandlesticks.append(predictor(i))
+   
+      if advisor != ~ or advisor != "no":
+         advice.append(advisor(i))
+      
+   if investor != ~ or advisor != "no":
+      #Some nasty code including entering API's public key and personal key and accepting and accepting a contract.
 
-   # write your solution here
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
 
-main()
+# An interface may be created in order to provide the user an easy tool to "play" with. (Investing in cryptocurrencies carries high risks and may result in the loss of all money invested) 
 ```
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The data is collected through [Binance API](https://www.binance.com/es/binance-api).
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+AI methods based on Tensorflow.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Not yet implemented.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Online app, private or public to provide the public with some minor tools to cryptocurrencies investments, in addition to all existing ones.
 
 
 ## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Yet to be implemented.
