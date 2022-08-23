@@ -322,5 +322,5 @@ def main():
     data=train_test_data()
     history=model_alpha(data,new=True,fit=True,epochs=600)
     multiple_plot_loss(history)
-    plot_pred_candlesticks(model_alpha(data))
-    pass
+    return plot_pred_candlesticks(model_alpha(data))
+    
